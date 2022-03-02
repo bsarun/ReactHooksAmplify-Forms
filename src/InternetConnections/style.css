@@ -1,0 +1,49 @@
+.internet-connection-wrapper {
+  /* width: 900px; */
+  overflow-x: auto;
+  margin-bottom: 10px;
+  border: solid #ccc 1px;
+}
+
+.internet-connection-wrapper table td:first-child,
+.internet-connection-wrapper table th:first-child
+{
+  position: sticky;
+  left: 0;
+  background-color: #eceaea;
+  z-index: 222;
+}
+
+.internet-connection-wrapper td, .internet-connection-wrapper th {
+  border-bottom: dashed #888 1px;
+}
+
+.ipinput-class,
+.usernameinput-class,
+.passwordinput-class{
+  min-width: 13em !important;
+}
+
+.selecttype-class .amplify-select{
+  min-width: 9em !important;
+}
+
+.request-class
+ {
+  min-width: 8em;
+}
+
+.labelinput-class,
+.zoneinput-class
+{
+  min-width: 6em;
+}
+
+.amplify-visually-hidden{
+  /* position: unset; */
+  display: none;
+}
+
+.footer-buttons {
+  float: left;
+}
